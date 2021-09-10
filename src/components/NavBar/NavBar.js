@@ -21,7 +21,7 @@ function NavBar() {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Experience</a>
-                    </li>
+                    </li>  
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact Me</a>
                     </li>

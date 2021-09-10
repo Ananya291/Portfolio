@@ -1,3 +1,51 @@
-/* .landing_page{
-    margin-top: 200px;
-} */
+.landing_page{
+    margin-top: 50px;
+    padding: 0 5%;
+    background-color: #968C83;
+    color: #F3F2C9;
+    height: 93vh;
+}
+
+.landing_intro{
+     padding-top: 10%;
+     padding-left: 30%;
+} 
+
+.landing_name{
+    padding-left: 36%;
+}
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+    padding-left: 35%;
+}
+
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+}

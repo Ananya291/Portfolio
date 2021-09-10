@@ -1,8 +1,21 @@
 nav{
-    background-color: whitesmoke;
+    background-color: #D6D2C4;
     height: 50px;
     padding: 0 5%;
 }
+
+.navbar-brand{
+    font-size:x-large;
+    font-weight: 500;
+}
+
 .navi{
     margin-left: auto;
+    font-size:x-large;
+    font-weight: 500;
 } 
+
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}

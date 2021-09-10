@@ -1,0 +1,48 @@
+.ProjectPage_Main{
+    height: 100vh;
+    background-color: palegreen;
+}
+
+.projectpage_title{
+    padding-top: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.projectpage_box{
+    display: flex;
+    background-color: yellow;
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 60%;
+    width: 90%;
+}
+
+.projectpage_card1{
+    flex: 50px;
+    background-color: tomato;
+    margin-right: 50px;
+    display: flex;
+}
+
+.projectpage_image{
+    flex: 50px;
+}
+
+.projectpage_description{
+    flex: 50px;
+}
+
+.projectpage_card2{
+    flex: 50px;
+    display: flex;
+    background-color: violet;
+    margin-right: 50px;
+}
+
+.projectpage_card3{
+    flex: 50px;
+    display: flex;
+    background-color: blue;
+}
