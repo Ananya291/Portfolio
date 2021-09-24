@@ -1,5 +1,9 @@
 import React from 'react'
 import "./ProjectPage.css"
+import projectimage from "./project_image.png"
+import projectimage2 from "./project_image2.png"
+import projectimage3 from "./project_image3.png"
+import SingleProject from './SingleProject'
 
 function ProjectPage() {
     return (
@@ -7,20 +11,9 @@ function ProjectPage() {
             <div className="projectpage_title">
                 <h2>Want me to build amazing website for you?</h2>
             </div>
-            <div className="projectpage_box">
-                <div className="projectpage_card1">
-                    <h1 className="projectpage_image">hey</h1>
-                    <h2 className="projectpage_description">ajkfoiqwniopj</h2>
-                </div>
-                <div className="projectpage_card2">
-                    <h1 className="projectpage_image">hey</h1>
-                    <h2 className="projectpage_description">jadhoiwhadoic</h2>
-                </div>
-                <div className="projectpage_card3">
-                    <h1 className="projectpage_image">hey</h1>
-                    <h2 className="projectpage_description">gfc8qwgaol</h2>
-                </div>
-            </div>
+            <SingleProject image={projectimage} description="jadhfaifqkuho"/>
+            <SingleProject image={projectimage2} description="ajfopwea"/>
+            <SingleProject image={projectimage3} description="qkjdpoqjp"/>
         </div>
     )
 }
